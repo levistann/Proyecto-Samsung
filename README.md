@@ -13,9 +13,12 @@ Proceso:
   Fuente del dataset:
     https://www.kaggle.com/datasets/sc231997/crude-oil-price
     https://www.kaggle.com/datasets/saketk511/world-important-events-ancient-to-modern
+    
   Limpieza de los datos:
     
   ![{83E23F6B-8793-486E-AC7E-36A22EC77BE0}](https://github.com/user-attachments/assets/8262212c-fc5d-46b8-b944-b4e3ccba7006)
+
+  
   Estadisticos:
     Cálculo de indicadores:
       Cálculo de la media móvil simple (SMA) para diferentes ventanas de tiempo (por ejemplo, SMA50 y SMA100).
