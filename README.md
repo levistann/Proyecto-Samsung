@@ -11,26 +11,23 @@ Arquitectura:
 
 Proceso:
   Fuente del dataset:
-    Se utiliza la librería pandas para cargar el archivo CSV que contiene los datos históricos del precio del petróleo.
-
-  Preparación de los datos:
-    Conversión de la columna de fechas a un formato datetime.
-    Establecimiento de la columna de fechas como índice del DataFrame.
-    Filtrado de los datos para mantener un rango específico de fechas (por ejemplo, desde 1990 hasta 2022).
-
-  Cálculo de indicadores:
-    Cálculo de la media móvil simple (SMA) para diferentes ventanas de tiempo (por ejemplo, SMA50 y SMA100).
-    Identificación y manejo de valores atípicos utilizando el rango intercuartílico (IQR).
-    Cálculo de la variación porcentual diaria del precio del petróleo.
-
-  Visualización de datos:
-    Creación de gráficos de líneas para visualizar la evolución del precio del petróleo a lo largo del tiempo.
-    Superposición de gráficos de dispersión para resaltar máximos y mínimos históricos.
-    Adición de indicadores como SMA en los gráficos para facilitar el análisis visual.
-
-  Análisis de eventos históricos:
-    Identificación de eventos históricos relevantes que han afectado el precio del petróleo.
-    Superposición de estos eventos en los gráficos para analizar la correlación entre eventos y cambios en el precio del petróleo.
+    https://www.kaggle.com/datasets/sc231997/crude-oil-price
+    https://www.kaggle.com/datasets/saketk511/world-important-events-ancient-to-modern
+  Limpieza de los datos:
+    
+  ![{83E23F6B-8793-486E-AC7E-36A22EC77BE0}](https://github.com/user-attachments/assets/8262212c-fc5d-46b8-b944-b4e3ccba7006)
+  Estadisticos:
+    Cálculo de indicadores:
+      Cálculo de la media móvil simple (SMA) para diferentes ventanas de tiempo (por ejemplo, SMA50 y SMA100).
+      Identificación y manejo de valores atípicos utilizando el rango intercuartílico (IQR).
+      Cálculo de la variación porcentual diaria del precio del petróleo
+    Visualización de datos:
+      Creación de gráficos de líneas para visualizar la evolución del precio del petróleo a lo largo del tiempo.
+      Superposición de gráficos de dispersión para resaltar máximos y mínimos históricos.
+      Adición de indicadores como SMA en los gráficos para facilitar el análisis visual.
+    Análisis de eventos históricos:
+      Identificación de eventos históricos relevantes que han afectado el precio del petróleo.
+      Superposición de estos eventos en los gráficos para analizar la correlación entre eventos y cambios en el precio del petróleo.
 
 Estado del proyecto:
   Carga y preparación de datos: Completado.
